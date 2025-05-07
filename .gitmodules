@@ -1,0 +1,3 @@
+[submodule "omni-3dgs-extension"]
+	path = omni-3dgs-extension
+	url = https://github.com/j3soon/omni-3dgs-extension.git
