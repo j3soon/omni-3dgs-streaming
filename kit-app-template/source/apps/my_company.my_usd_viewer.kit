@@ -35,6 +35,8 @@ template_name = "omni.usd_viewer"
 "omni.ujitso.client" = {}
 "omni.usd_viewer.samples" = {}
 "usdrt.scenegraph" = {}
+"omni.replicator.core" = {}
+"omni.gsplat.viewport" = { order = 1000 }
 "my_company.my_usd_viewer_setup_extension" = { order = 1000 }
 
 
@@ -166,8 +168,17 @@ type = "ApplicationTemplate" # Repo Template Metadata
 # Kit SDK Version: 106.5.0+release.162521.d02c707b.gl
 
 # Exact Version dependencies:
+# 	omni.convexdecomposition-106.5.7
 # 	omni.kit.data2ui.core-1.0.27
 # 	omni.kit.data2ui.usd-1.0.27
+# 	omni.kvdb-106.5.7
+# 	omni.localcache-106.5.7
+# 	omni.physx-106.5.7
+# 	omni.physx.cooking-106.5.7
+# 	omni.physx.foundation-106.5.7
+# 	omni.usd.schema.physx-106.5.7
+# 	omni.usdphysics-106.5.7
+# 	omni.warp.core-1.5.0
 
 # Version lock for all dependencies:
 [settings.app.exts]
@@ -179,12 +190,22 @@ enabled = [
 	"omni.graph.nodes-1.162.1",
 	"omni.graph.scriptnode-1.40.1",
 	"omni.graph.ui_nodes-1.40.1",
+	"omni.kit.graph.delegate.default-1.2.2",
+	"omni.kit.graph.editor.core-1.5.3",
+	"omni.kit.graph.usd.commands-1.3.1",
 	"omni.kit.livestream.messaging-1.1.1",
 	"omni.kit.sequencer.core-103.4.2",
 	"omni.kit.sequencer.usd-103.4.6",
+	"omni.kit.widget.material_preview-1.0.16",
+	"omni.kit.window.material_graph-1.8.19",
 	"omni.no_code_ui.bundle-1.0.27",
+	"omni.physx.stageupdate-106.5.7",
+	"omni.pip.cloud-1.1.7",
+	"omni.pip.compute-1.4.5",
+	"omni.replicator.core-1.11.35",
 	"omni.usd.schema.sequence-2.3.1",
 	"omni.usd_viewer.samples-106.3.2",
+	"omni.warp-1.5.0",
 ]
 
 ########################################################################################################################

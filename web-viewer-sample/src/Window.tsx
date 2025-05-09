@@ -67,11 +67,14 @@ export default class App extends React.Component<AppProps, AppState> {
         
         // list of selectable USD assets
         const usdAssets: USDAssetType[] = StreamConfig.source === "stream"? [
+            // kit-app-template/_build/linux-x86_64/release/samples/stage01.usd
+            {name: "Sample 0", url:"/app/samples/gsplat_assets/usd/example_scene.usd"},
             {name: "Sample 1", url:"/app/samples/stage01.usd"},
             {name: "Sample 2", url:"/app/samples/stage02.usd"},
         ]
         :
         [
+            {name: "Sample 0", url:"./samples/gsplat_assets/usd/example_scene.usd"},
             {name: "Sample 1", url:"./samples/stage01.usd"},
             {name: "Sample 2", url:"./samples/stage02.usd"},
         ];

@@ -18,6 +18,7 @@ import omni.log
 import omni.kit.app
 import omni.kit.livestream.messaging as messaging
 import omni.usd
+from omni.gsplat.viewport import OmniGSplatViewportExtension
 
 
 class LoadingManager:
@@ -166,6 +167,8 @@ class LoadingManager:
 
                 payload = {"url": url, "result": "success", "error": ''}
                 message_bus.dispatch(event_type, payload=payload)
+
+                OmniGSplatViewportExtension._instance.init_streaming()
 
             asyncio.ensure_future(open_stage())
 
