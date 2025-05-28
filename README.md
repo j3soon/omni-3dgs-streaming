@@ -68,6 +68,9 @@ Preferably, you should have also ran the [Omniverse 3DGS Extension](https://gith
    # Link assets
    ln -s "${PWD}/../omni-3dgs-extension/assets" "${PWD}/_build/linux-x86_64/release/samples/gsplat_assets"
 
+   # Install dependencies
+   sudo apt-get update && sudo apt-get install -y libglu1-mesa
+
    # Run the app
    ./repo.sh launch -- --no-window
    # and press down to select `my_company.my_usd_viewer_streaming.kit` and press enter
