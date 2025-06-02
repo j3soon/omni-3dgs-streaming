@@ -146,3 +146,19 @@ To ensure reproducibility, we have pinned specific versions of dependencies. The
   This is a sample app (v1.4.1) built with React along with Vite, which is the frontend for web streaming.
 
 Further changes based on the packages above are released under the [Apache-2.0 License](LICENSE).
+
+## Acknowledgement
+
+This project has been made possible through the support of [CGV Lab][cgvlab], [VMLab][vmlab], and [NVIDIA AI Technology Center (NVAITC)][nvaitc].
+
+Special thanks to [@tigerpaws01](https://github.com/tigerpaws01) for the initial implementation of the PyGame viewer.
+
+I would also like to thank the large-scale 3DGS Study Group members, [@Joshimello](https://github.com/Joshimello), [@Sunnyhong0326](https://github.com/Sunnyhong0326), and Ting-Yu Yan for discussions.
+
+For a complete list of contributors to the code of this repository, please visit the [contributor list](https://github.com/j3soon/omni-3dgs-streaming/graphs/contributors).
+
+[cgvlab]: https://cgv.cs.nthu.edu.tw
+[vmlab]: https://vmlab-nthu.notion.site/NTHU-VMLab-143b8d611ddc8071ab0ede97aacfc403?pvs=4
+[nvaitc]: https://github.com/NVAITC
+
+Disclaimer: this is not an official NVIDIA product.
